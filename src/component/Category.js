@@ -1,6 +1,5 @@
 import styles from "./Category.module.css";
 import { useState } from "react";
-import clsx from "clsx";
 import { useHistory } from "react-router-dom";
 
 function Category({ srch, setSrch, idxCtg, setIdxCtg, category }) {
