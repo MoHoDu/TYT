@@ -1,0 +1,108 @@
+:root {
+  --margin: 5px;
+  --margin2: 5px;
+  --width: calc(100vw - var(--margin) * 2);
+  --height: calc(100vh - var(--margin) * 2);
+  --width2: calc(100vw - var(--margin) * 2);
+  --height2: calc(100vh - var(--margin) * 2);
+  --opacity: 0.95;
+}
+
+.transitionGroup {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.transitionGroup::-webkit-scrollbar {
+  display: none;
+}
+
+.tran {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.tran::-webkit-scrollbar {
+  display: none;
+}
+
+.page {
+  position: absolute;
+  width: 0;
+  max-width: 620px;
+  margin: var(--margin);
+  height: 0;
+  max-height: 880px;
+  opacity: 0;
+  right: 0;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.menu {
+  position: absolute;
+  width: 0;
+  max-width: 310px;
+  margin: var(--margin);
+  height: 0;
+  opacity: 0;
+  left: 0;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.enterActive2 {
+  opacity: var(--opacity);
+  width: var(--width2);
+  height: var(--height2);
+  transition: all 500ms ease-in-out;
+}
+
+.enterDone2 {
+  opacity: var(--opacity);
+  width: var(--width);
+  height: var(--height);
+}
+
+.exit2 {
+  opacity: var(--opacity);
+  width: var(--width);
+  height: var(--height);
+}
+
+.exitActive2 {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition: all 500ms ease-in-out;
+}
+
+.enterActive {
+  opacity: var(--opacity);
+  width: var(--width);
+  height: var(--height);
+  transition: all 500ms ease-in-out;
+}
+
+.enterDone {
+  opacity: var(--opacity);
+  width: var(--width);
+  height: var(--height);
+}
+
+.exit {
+  opacity: var(--opacity);
+  width: var(--width);
+  height: var(--height);
+}
+
+.exitActive {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition: all 500ms ease-in-out;
+}

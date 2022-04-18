@@ -1,0 +1,30 @@
+.transitionGroup {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 5px;
+}
+
+.enterActive {
+  left: 15px;
+  transition: left 500ms;
+}
+
+.enterDone {
+  left: 15px;
+}
+
+.exit {
+  left: 15px;
+}
+
+.exitActive {
+  left: 5px;
+  transition: left 500ms;
+}

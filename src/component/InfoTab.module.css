@@ -1,0 +1,96 @@
+#box {
+  width: 250px;
+  height: 200px;
+  background-color: var(--bkColorL);
+  border: 2px solid var(--wtColor);
+  border-radius: 5px;
+  box-shadow: rgba(214, 219, 226, 0.35) 0px 5px 5px;
+  box-sizing: border-box;
+  z-index: 21;
+}
+
+#box.show {
+  animation: showing 1s 0.2s forwards;
+}
+
+.innerBox {
+  opacity: 0;
+  height: 100%;
+  animation: opacity 0.8s 0.5s forwards;
+  text-align: center;
+  color: var(--wtColor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes showing {
+  0% {
+    width: 250px;
+    height: 200px;
+    background-color: var(--bkColorL);
+  }
+
+  30% {
+    background-color: var(--bkColorL);
+  }
+
+  100% {
+    width: 450px;
+    height: 580px;
+    min-height: 550px;
+
+    background-color: var(--bkColor);
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.innerBox .title {
+}
+
+.innerBox .movieTitle {
+  padding-bottom: 10px;
+  color: var(--ltColor);
+}
+
+.innerBox .ssum {
+  width: 90%;
+  height: 60%;
+  border: 2px solid var(--wtColor);
+  box-sizing: border-box;
+}
+
+.innerBox .info {
+}
+
+@media (max-width: 450px) {
+  @keyframes showing {
+    0% {
+      width: 250px;
+      height: 200px;
+      background-color: var(--bkColorL);
+    }
+
+    30% {
+      background-color: var(--bkColorL);
+    }
+
+    100% {
+      width: 96vw;
+      height: 80vh;
+      background-color: var(--bkColor);
+    }
+  }
+}
+
+@media (max-width: 400px) {
+}

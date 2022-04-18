@@ -1,0 +1,119 @@
+[
+  {
+    "idx": 0,
+    "title": "제이슨 라이트먼 감독 특집 vol.1",
+    "movieTitle": "맨, 우먼 & 칠드런",
+    "teamIndex": 4,
+    "genre": ["드라마", "코미디"],
+    "platformIndex": 1,
+    "ssum": "https://img.podbbang.com/pbi/t/640/375/0/359/268/000268359/268359.jpg"
+  },
+  {
+    "idx": 1,
+    "title": "동PD의 작별인사...생훈 애청자는 무조건 들어야하는 방송!",
+    "movieTitle": "생각훈련 original",
+    "teamIndex": 16,
+    "genre": ["스페셜 에피소드"],
+    "platformIndex": 1,
+    "ssum": "https://img.podbbang.com/pbi/t/640/375/0/489/263/000263489/263489.jpg"
+  },
+  {
+    "idx": 2,
+    "title": "House is not a home",
+    "movieTitle": "어웨이 위 고",
+    "teamIndex": 4,
+    "genre": ["코미디", "드라마"],
+    "platformIndex": 1,
+    "ssum": "https://img.podbbang.com/pbi/t/640/375/0/080/256/000256080/256080.jpg"
+  },
+  {
+    "idx": 3,
+    "title": "무얼 하느라 대부분의 시간을 보냈는가",
+    "movieTitle": "노매드랜드",
+    "teamIndex": 4,
+    "genre": ["드라마", "서부극"],
+    "platformIndex": 1,
+    "ssum": "https://img.podbbang.com/pbi/t/640/375/0/059/255/000255059/255059.jpg"
+  },
+  {
+    "idx": 4,
+    "title": "나는 중력으로 끌어 당겨지고 있다.",
+    "movieTitle": "탈룰라",
+    "teamIndex": 4,
+    "genre": ["드라마"],
+    "platformIndex": 1,
+    "ssum": "https://img.podbbang.com/pbi/t/640/375/0/001/253/000253001/253001.jpg"
+  },
+  {
+    "idx": 5,
+    "title": "제1회(?) 영화감독 인터뷰 - CCTV 김홍익 감독님",
+    "movieTitle": "CCTV",
+    "teamIndex": 0,
+    "genre": ["스페셜 에피소드"],
+    "platformIndex": 0,
+    "ssum": "https://i.ytimg.com/vi/o7OwXnQV-bI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBn4JlQMaRMfVz642JPvTYoZy0Hw"
+  },
+  {
+    "idx": 6,
+    "title": "웨딩 싱어에서 등장하는 80년대 미국 문화 코드 완전 분석!!💥",
+    "movieTitle": "웨딩 싱어",
+    "teamIndex": 2,
+    "genre": ["전쟁", "스릴러", "법정"],
+    "platformIndex": 0,
+    "ssum": "https://i.ytimg.com/vi/tqPpsPq43qU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBU45VBlWAe8cA31eAb9GGl7P3RTg"
+  },
+  {
+    "idx": 7,
+    "title": "당신의 중력은 충분한가요?",
+    "movieTitle": "탈룰라",
+    "teamIndex": 12,
+    "genre": ["전쟁", "스릴러", "법정"],
+    "platformIndex": 0,
+    "ssum": "https://i.ytimg.com/vi/u7kjz3-Z5uQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAvQfiz--gUVu9e8t7NzAFcFFls-Q"
+  },
+  {
+    "idx": 8,
+    "title": "영화추천: 취향과 트렌드좀 아시는 분이라면 :)",
+    "movieTitle": ["타코이야기", "어 베리 머리 크리스마스", "에놀라 홈즈"],
+    "teamIndex": 5,
+    "genre": ["전쟁", "스릴러", "법정"],
+    "platformIndex": 0,
+    "ssum": "https://i.ytimg.com/vi/ZAxSiUjxitc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBxyuCBVQ3VZ-PdNYWBAvX_Kl17rw"
+  },
+  {
+    "idx": 9,
+    "title": "톰, 넌 누구와 사랑을 한거니?",
+    "movieTitle": "500일의 썸머",
+    "teamIndex": 19,
+    "genre": ["로맨스", "코미디"],
+    "platformIndex": 2,
+    "ssum": "https://storage.hreum.me/uploads/new/audio-files/2022/02/01/images/562c4bd1-094a-4cb8-9558-af3594debffb/s512/562c4bd1-094a-4cb8-9558-af3594debffb.jpeg"
+  },
+  {
+    "idx": 10,
+    "title": "완전한 사랑은 아이러니하게도 결핍이 채운다.",
+    "movieTitle": "러스트앤본",
+    "teamIndex": 19,
+    "genre": ["로맨스", "드라마"],
+    "platformIndex": 2,
+    "ssum": "https://storage.hreum.me/uploads/new/audio-files/2022/01/25/images/721a28d3-f4e3-49d7-9d1a-fa54e6ad9fe9/s512/721a28d3-f4e3-49d7-9d1a-fa54e6ad9fe9.jpeg"
+  },
+  {
+    "idx": 11,
+    "title": "사랑을 소유하려는 욕망이 환상에 균열을 만든다.",
+    "movieTitle": "그녀",
+    "teamIndex": 19,
+    "genre": ["로맨스", "SF"],
+    "platformIndex": 2,
+    "ssum": "https://storage.hreum.me/uploads/new/audio-files/2022/01/18/images/f9b7e57d-d905-45c0-a5cb-96ca108496f4/s512/f9b7e57d-d905-45c0-a5cb-96ca108496f4.jpeg"
+  },
+  {
+    "idx": 12,
+    "title": "사랑의 시작과 환상",
+    "movieTitle": "비포선라이즈",
+    "teamIndex": 19,
+    "genre": ["로맨스", "드라마"],
+    "platformIndex": 2,
+    "ssum": "https://storage.hreum.me/uploads/new/audio-files/2022/01/11/images/6471d703-9b15-4d72-bd1d-a59cd5656ec0/s512/6471d703-9b15-4d72-bd1d-a59cd5656ec0.jpeg"
+  }
+]

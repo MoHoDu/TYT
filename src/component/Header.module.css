@@ -1,0 +1,121 @@
+.box {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  position: fixed;
+  padding-bottom: 5px;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid var(--wtColor);
+  box-sizing: border-box;
+  background-color: var(--bkColor);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 1s;
+  left: 0;
+  right: 0;
+}
+
+.box::-webkit-scrollbar {
+  display: none;
+}
+
+.box ion-icon:first-child {
+  left: 5px;
+}
+
+.box ion-icon:last-child {
+  right: 5px;
+}
+
+.menu {
+  position: absolute;
+  left: 5px;
+  top: 30px;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+  z-index: 2;
+  padding-bottom: 5px;
+}
+
+.search {
+  position: absolute;
+  right: 5px;
+  top: 30px;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+  z-index: 2;
+  padding-bottom: 5px;
+}
+
+.box ion-icon {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  color: var(--wtColor);
+  transition: 1s;
+}
+
+.logo {
+  position: relative;
+  color: var(--wtColor);
+  font-size: 20px;
+  padding: 7px;
+  border: 2px solid var(--wtColor);
+  border-radius: 50%;
+  box-sizing: border-box;
+  transition: 1s;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.box:hover .logo {
+  animation-duration: 0.7s;
+  animation-name: light;
+  animation-fill-mode: both;
+  margin-top: 10px;
+}
+
+.box:hover {
+  height: 70px;
+  border-color: var(--ltColor);
+  background-color: var(--bkColorL);
+}
+
+.box:hover ion-icon {
+  width: 30px;
+  height: 30px;
+  color: var(--wtColor);
+}
+
+.logo::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 35px;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 10px;
+  border: 2px solid var(--wtColor);
+  background-color: var(--ltColor);
+  border-radius: 4px;
+}
+
+@keyframes light {
+  0% {
+    text-shadow: 0 0 0 var(--ltColor);
+
+    box-shadow: 0 0 0 var(--ltColor);
+  }
+
+  100% {
+    text-shadow: 0 0 10px var(--ltColor), 0 0 20px var(--ltColor),
+      0 0 30px var(--ltColor), 0 0 40px var(--ltColor), 0 0 50px var(--ltColor),
+      0 0 60px var(--ltColor), 0 0 70px var(--ltColor);
+
+    box-shadow: 0 -1px 5px var(--ltColor), 0 -2px 4px var(--ltColor),
+      0 -3px 8px var(--ltColor);
+  }
+}

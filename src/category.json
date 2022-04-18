@@ -1,0 +1,143 @@
+{
+  "login": [
+    {
+      "admin": false,
+      "name": "모호성",
+      "id": "ahghtjd7",
+      "ps": "sjhs0920!!"
+    },
+    {
+      "admin": true,
+      "name": "한PD",
+      "id": "minisujin",
+      "ps": "hssj0920@@"
+    }
+  ],
+  "genre": [
+    "감동",
+    "전쟁",
+    "스릴러",
+    "애니메이션",
+    "가족",
+    "힐링",
+    "법정",
+    "SF",
+    "판타지",
+    "역사",
+    "다큐멘터리",
+    "드라마",
+    "코미디",
+    "서부극",
+    "로맨스",
+    "스페셜 에피소드"
+  ],
+  "members": ["한PD", "동PD", "M형", "J", "규", "안국장"],
+  "platforms": ["YouTube", "Podcast", "Hereum"],
+  "team": [
+    {
+      "name": "다락방",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 0
+    },
+    {
+      "name": "자상한 훈련",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 1
+    },
+    {
+      "name": "영화 편의점",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 2
+    },
+    {
+      "name": "시네마스코프21",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 3
+    },
+    {
+      "name": "시네마스코프22",
+      "Team_members": ["한PD", "J"],
+      "idx": 4
+    },
+    {
+      "name": "Naeflex",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 5
+    },
+    {
+      "name": "규가 내리는 밤",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 6
+    },
+    {
+      "name": "Movie Essay",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 7
+    },
+    {
+      "name": "한피디의 시네마팩토리",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 8
+    },
+    {
+      "name": "오디오북",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 9
+    },
+    {
+      "name": "J의 서재",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 10
+    },
+    {
+      "name": "영화 본방",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 11
+    },
+    {
+      "name": "잠깐! 영화",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 12
+    },
+    {
+      "name": "C드라이브",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 13
+    },
+    {
+      "name": "규의 영화관",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 14
+    },
+    {
+      "name": "뮤스토리",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 15
+    },
+    {
+      "name": "멈춰서서",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 16
+    },
+    {
+      "name": "K의 서재",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 17
+    },
+    {
+      "name": "가이의 영화 한잔",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 18
+    },
+    {
+      "name": "흐름드살롱",
+      "Team_members": ["한PD", "동PD", "J"],
+      "idx": 19
+    },
+    {
+      "name": "파일럿/기타",
+      "Team_members": ["한PD", "동PD"],
+      "idx": 19
+    }
+  ]
+}
