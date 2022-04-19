@@ -7,7 +7,6 @@ function InfoTab(props) {
 
   const title = `${contents[sltInfo].title}`;
   const movie = `⌜${contents[sltInfo].movieTitle}⌟`;
-  console.log(contents);
 
   useEffect(() => {
     const infoBox = document.getElementById(`${styles.box}`);
@@ -18,7 +17,6 @@ function InfoTab(props) {
       <div className={styles.innerBox}>
         <h2 className={styles.title}>{title}</h2>
         <span className={styles.movieTitle}>{movie}</span>
-        <div className={styles.ssum}></div>
         <div className={styles.info}>
           <p>설명</p>
           <p>설명</p>

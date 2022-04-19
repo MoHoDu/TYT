@@ -1,19 +1,72 @@
 .box {
-  /* width: 30px; */
+  width: 100%;
   height: 30px;
-  position: absolute;
-  top: 74px;
-  right: 10px;
+  position: relative;
+  top: 75px;
   display: flex;
   justify-items: center;
   /* background-color: rgba(6, 44, 48, 0.8); */
   z-index: 10;
 }
 
+.members {
+  width: 100px;
+  height: 30px;
+  border: 2px solid var(--wtColor);
+  border-radius: 5px;
+  left: 5px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+.memText {
+  display: inline;
+  width: 100px;
+  transform: translateX(-12px);
+  color: var(--wtColor);
+  flex: none;
+  transition: ease-in-out 0.5s;
+}
+
+.members:hover {
+  width: calc(30px * 8);
+  height: 30px;
+  border: none;
+}
+
+.members:hover .memText {
+  display: none;
+}
+
+.member {
+  width: 0;
+  height: 0;
+  margin-right: 5px;
+  text-align: center;
+  padding-top: 3px;
+  color: var(--wtColor);
+  opacity: 0;
+  transition: step-start 0.5s;
+}
+
+.members:hover .member {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid var(--wtColor);
+  flex: none;
+  opacity: 1;
+}
+
 select {
+  position: absolute;
+  right: 10px;
   height: 25px;
   width: 80px;
-  margin: 5px 0 0 5px;
   border: 1px solid var(--wtColor);
   border-radius: 2px;
   background-color: var(--bkColor);
@@ -28,13 +81,19 @@ select:focus::selection {
   background-color: var(--bkColorL);
 }
 
+.btnBox {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  right: 95px;
+}
+
 .clearBtn {
   position: relative;
   width: fit-content;
   padding-left: 15px;
   box-sizing: border-box;
-  margin-top: 5px;
-  margin-right: 5px;
   height: 25px;
 }
 

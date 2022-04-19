@@ -17,13 +17,25 @@ function Category({ srch, setSrch, idxCtg, setIdxCtg, category }) {
 
   return (
     <div className={styles.box}>
+      <div className={styles.members}>
+        <span className={styles.member}>한</span>
+        <span className={styles.member}>동</span>
+        <span className={styles.member}>M</span>
+        <span className={styles.member}>J</span>
+        <span className={styles.member}>규</span>
+        <span className={styles.member}>안</span>
+        <span className={styles.member}>가</span>
+        <span className={styles.memText}>멤버별 색인 ↘︎</span>
+      </div>
       {srch === "" ? null : (
-        <button onClick={onClear} className={styles.clearBtn}>
-          <span className={styles.xBtn}>x</span> {srch}
-        </button>
+        <div className={styles.btnBox}>
+          <button onClick={onClear} className={styles.clearBtn}>
+            <span className={styles.xBtn}>x</span> {srch}
+          </button>
+        </div>
       )}
       <select value={idxCtg} onChange={onSelect}>
-        <option value={-1}>모두 보기</option>
+        <option value={-1}>팀별 보기</option>
         {category.team.map((x, index) => {
           return (
             <option key={index} value={index}>
